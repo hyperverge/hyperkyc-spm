@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "hypersnapsdk-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hyperverge/hypersnapsdk-spm",
+      "state" : {
+        "revision" : "b92ef7701508c796466137d5a54f8f5904df71ca",
+        "version" : "5.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}
