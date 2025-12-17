@@ -22,7 +22,7 @@ let package = Package(
         // Pull in HyperSnapSDK from its SPM-friendly tag
         .package(
             url: "https://github.com/hyperverge/hypersnapsdk-spm",
-            from: "6.0.0-beta02"
+            from: "6.0.0-beta03"
         ),
         // Pull in HVCrashGuard (used only by Full variant)
         .package(
@@ -35,14 +35,14 @@ let package = Package(
         .binaryTarget(
             name: "HyperKYC",
             url: "https://hvsdk.s3.ap-south-1.amazonaws.com/ios/release/hyperkyc/1.0.0/HyperKYC-Full-1.0.0-XCFramework.zip",
-            checksum: "20383b56f080908c7c7bae39cf07df88fbda608e54c04791af8dd122d8e5bcbd"
+            checksum: "69088057b29c3714d9a8cb4d78a5dda478c8ef07e73f8d34d63130620e468d36"
         ),
 
         // Binary target for HyperKYC Core (XCFramework without HVCrashGuard)
         .binaryTarget(
             name: "HyperKYCCore",
             url: "https://hvsdk.s3.ap-south-1.amazonaws.com/ios/release/hyperkyc/1.0.0/HyperKYCCore-1.0.0-XCFramework.zip",
-            checksum: "fbc25e94f5357134ab08743b797338184e9edfdad184a29d08e35bc66801065d"
+            checksum: "16a75b70719205938caf16c8d9f6cea52f724bf5e06de1e13dd622595e970b45"
         ),
 
         // Full wrapper: HyperKYC + HyperSnapSDK + CrashGuard
