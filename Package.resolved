@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "hvcrashguard",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hyperverge/HVCrashGuard",
+      "state" : {
+        "revision" : "e5c1efeb7472c5e75d3d2b8b8d12fdaf3bbb44ec",
+        "version" : "2.0.0-beta"
+      }
+    },
+    {
+      "identity" : "hypersnapsdk-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hyperverge/hypersnapsdk-spm",
+      "state" : {
+        "revision" : "f5ce65c74ae1ceb0328eddefb1fb8a2498188d5d",
+        "version" : "6.0.0-beta02"
+      }
+    }
+  ],
+  "version" : 2
+}

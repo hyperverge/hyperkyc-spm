@@ -27,7 +27,7 @@ let package = Package(
         // Pull in HVCrashGuard (used only by Full variant)
         .package(
             url: "https://github.com/hyperverge/HVCrashGuard",
-            exact: "2.0.0"
+            exact: "2.0.0-beta"
         )
     ],
     targets: [

@@ -1,0 +1,27 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "hypersnapsdk-spm",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/hyperverge/hypersnapsdk-spm",
+          "name" : "HyperSnapSDK"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "f5ce65c74ae1ceb0328eddefb1fb8a2498188d5d",
+            "version" : "6.0.0-beta02"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "hypersnapsdk-spm"
+      }
+    ]
+  },
+  "version" : 6
+}
