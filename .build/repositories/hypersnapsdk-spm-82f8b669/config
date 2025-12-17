@@ -4,7 +4,10 @@
 	bare = true
 	ignorecase = true
 	precomposeunicode = true
+	symlinks = true
+	fsmonitor = false
+	longpaths = true
 [remote "origin"]
-	url = https://github.com/hyperverge/hypersnapsdk-spm/
+	url = https://github.com/hyperverge/hypersnapsdk-spm
 	fetch = +refs/*:refs/*
 	mirror = true

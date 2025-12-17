@@ -1,0 +1,11 @@
+framework module HVCrashGuard {
+  umbrella header "HVCrashGuard.h"
+  export *
+
+  module * { export * }
+}
+
+module HVCrashGuard.Swift {
+  header "HVCrashGuard-Swift.h"
+  requires objc
+}
