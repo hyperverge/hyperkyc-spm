@@ -32,6 +32,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>HyperKYCCore</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>hyperkyc-spm</key>
 		<dict>
 			<key>primary</key>
