@@ -41,8 +41,8 @@ let package = Package(
         // Binary target for HyperKYC Core (XCFramework without HVCrashGuard)
         .binaryTarget(
             name: "HyperKYCCore",
-            url: "https://hvsdk.s3.ap-south-1.amazonaws.com/ios/release/hyperkyc/1.0.0/HyperKYCCore-1.0.0-XCFramework.zip",
-            checksum: "2c0c68019db2862c21560d1207e66d452c6a9e3a9c845062a2de1bc8c4e25360"
+            url: "https://hvsdk.s3.ap-south-1.amazonaws.com/ios/release/hyperkyc/1.0.0-beta15/HyperKYCCore-1.0.0-beta15-XCFramework.zip",
+            checksum: "CHECKSUM_FROM_BUILD_SCRIPT_OUTPUT"
         ),
 
         // Full wrapper: HyperKYC + HyperSnapSDK + CrashGuard
@@ -55,7 +55,7 @@ let package = Package(
             ],
             path: "Sources/HyperKYCWrapper",
             resources: [
-                .process("Resources")
+                .copy("Resources")
             ]
         ),
 
@@ -68,7 +68,7 @@ let package = Package(
             ],
             path: "Sources/HyperKYCCoreWrapper",
             resources: [
-                .process("Resources")
+                .copy("Resources")
             ]
         )
     ]
