@@ -1,6 +1,0 @@
-framework module HyperKYC {
-  umbrella header "HyperKYC.h"
-  export *
-
-  module * { export * }
-}
