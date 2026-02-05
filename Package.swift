@@ -26,7 +26,7 @@ let package = Package(
         )
     ],
     targets: [
-        // 🔹 Binary target
+        //  Binary target
         // NOTE:
         // - XCFramework filename is still `HyperKYC.xcframework`
         // - Only the SwiftPM *target name* is different to avoid collisions
@@ -36,7 +36,7 @@ let package = Package(
             checksum: "4ba2141a9421778816585eaf4c4f8bcc5f08014f533d34f40dd8f2d430b943ae"
         ),
 
-        // 🔹 Wrapper target (owns resources)
+        // Wrapper target (owns resources)
         .target(
             name: "HyperKYCWrapper",
             dependencies: [
@@ -46,7 +46,6 @@ let package = Package(
             ],
             path: "Sources/HyperKYCWrapper",
             resources: [
-                // Correct choice for this repo
                 .process("Resources")
             ]
         )
