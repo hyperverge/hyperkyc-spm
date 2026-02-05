@@ -3,6 +3,7 @@
 - Enhancements: (Breaking Version)
     - Removed support for native forms, enable `webCore` or `webForms` for dynamic form module
     - Remove DocDetect module, document auto capture is supported via Core & Crashguard subspecs
+    - Updated min Xcode requirement to Xcode 16.2
     - Maintenance:
         - Use HyperSnapSDK `6.0.1`
         
