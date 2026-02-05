@@ -1,4 +1,11 @@
 ## CHANGELOG
+### 1.0.0 *[3 Feb 2026]*
+- Enhancements: (Breaking Version)
+    - Removed support for native forms, enable `webCore` or `webForms` for dynamic form module
+    - Remove DocDetect module, document auto capture is supported via Core & Crashguard subspecs
+    - Maintenance:
+        - Use HyperSnapSDK `6.0.1`
+        
 ### 0.49.0 *[13 Aug 2025]*
 - Enhancements:
     - Add support to show retry screen when remote config fetch fails in slow network scenarios
