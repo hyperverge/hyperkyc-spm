@@ -10,7 +10,7 @@ File > Add Packages...
 3. Enter the package URL:
 https://github.com/hyperverge/hyperkyc-spm.git
 
-4. Choose the version (e.g., `0.49.0`) and add it to your app target.
+4. Choose the version (e.g., `1.0.0`) and add it to your app target.
 
 ---
 
@@ -30,3 +30,4 @@ import HyperKYC
 This repo is a Swift Package Manager distribution wrapper for HyperKYC SDK.
 
 For CocoaPods integration, refer to the main HyperKYC SDK repo.
+
