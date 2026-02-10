@@ -29,5 +29,4 @@ import HyperKYC
 ## 💡 Notes
 This repo is a Swift Package Manager distribution wrapper for HyperKYC SDK.
 
-For CocoaPods integration, refer to the main HyperKYC SDK repo.
-
+For CocoaPods integration, refer to the main HyperKYC SDK repo. [https://github.com/hyperverge/HyperKYC]
