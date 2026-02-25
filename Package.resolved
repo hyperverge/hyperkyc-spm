@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/hyperverge/hypersnapsdk-spm",
       "state" : {
-        "revision" : "c48be2cd1851856b511e5a027af93541d016fbc3",
-        "version" : "6.0.1"
+        "revision" : "f86275427cd22c5a65ef0ac3e8ce35d307d0e408",
+        "version" : "6.1.0"
       }
     }
   ],
