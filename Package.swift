@@ -17,7 +17,7 @@ let package = Package(
         // HyperSnapSDK dependency
         .package(
             url: "https://github.com/hyperverge/hypersnapsdk-spm",
-            from: "6.0.1"
+            exact: "6.0.1"
         ),
         // CrashGuard dependency
         .package(
