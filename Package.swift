@@ -32,8 +32,8 @@ let package = Package(
         // - Only the SwiftPM *target name* is different to avoid collisions
         .binaryTarget(
             name: "HyperKYCBinary",
-            url: "https://hvsdk.s3.amazonaws.com/ios/release/hyperkyc/1.1.0/HyperKYC.xcframework.zip",
-            checksum: "44f2681354745ba26231390404949208bc6b3f250dc187413609ce02f6c6d4e1"
+            url: "https://hvsdk.s3.amazonaws.com/ios/release/hyperkyc/1.2.0/HyperKYC.xcframework.zip",
+            checksum: "2922f7383445ac5f04cb27c7a8d544cfc155bc16a27834c9c8a0531efa6cc8fa"
         ),
 
         // Wrapper target (owns resources)
