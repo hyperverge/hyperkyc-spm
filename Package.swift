@@ -27,20 +27,13 @@ let package = Package(
     ],
     targets: [
         //  Binary target
-        // NOTE:
-        // - XCFramework filename is still `HyperKYC.xcframework`
-        // - Only the SwiftPM *target name* is different to avoid collisions
         .binaryTarget(
             name: "HyperKYCBinary",
             url: "https://hvsdk.s3.amazonaws.com/ios/release/hyperkyc/1.3.0/HyperKYC.xcframework.zip",
             checksum: "036446b46dd14e76a1bcd90d9e68c37614779f7a28eb63b60a1f68bc67ac2a4b"
         ),
 
-        // Wrapper target (owns resources)
-        // HyperKYCPreview.storyboardc is pre-compiled so clients never run ibtool
-        // and never see storyboard warnings in their Xcode projects.
-        // .storyboardc lives at the target root (not inside Resources/) so that
-        // .copy places it at the bundle root where UIStoryboard can find it.
+    
         .target(
             name: "HyperKYCWrapper",
             dependencies: [
