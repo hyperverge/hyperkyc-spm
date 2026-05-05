@@ -17,7 +17,7 @@ let package = Package(
         // HyperSnapSDK dependency
         .package(
             url: "https://github.com/hyperverge/hypersnapsdk-spm",
-            exact: "6.3.0"
+            exact: "6.4.0"
         ),
         // CrashGuard dependency
         .package(
@@ -29,8 +29,8 @@ let package = Package(
         //  Binary target
         .binaryTarget(
             name: "HyperKYCBinary",
-            url: "https://hvsdk.s3.amazonaws.com/ios/release/hyperkyc/1.4.2/HyperKYC.xcframework.zip",
-            checksum: "e0f98923243cf52cd9a34c898bc907d6d5b3c2a0111ff29824eb7fe2de1009b8"
+            url: "https://hvsdk.s3.amazonaws.com/ios/release/hyperkyc/1.5.0/HyperKYC.xcframework.zip",
+            checksum: "2f826d7bcacf5f259cb418a5d139088e5b61b6b8981b97ef24e9bf2c7cc74b88"
         ),
 
     
