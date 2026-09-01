@@ -1,4 +1,13 @@
 ## CHANGELOG
+### 1.9.0 *[1 Sep 2026]*
+- Add support for `hk_background` for background color 
+- Deprecated `setHkThemeMode` , use `setThemeMode`
+- Use HyperSnapSDK `6.7.0`
+- Enhancements
+    - Added support for backend video recording
+    - Added additional selfie capture-screen analytics, gated by the remote-config flag `mobilesdk.enableDetailedSelfieAnalytics` (disabled by default).
+    - Added support for batch analytics API call
+    
 ### 1.7.0 *[29 Jun 2026]*
 - Update default webCore version to `10.16.1`  
 - Bug Fixes: 
