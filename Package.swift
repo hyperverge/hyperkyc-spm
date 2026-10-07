@@ -29,8 +29,8 @@ let package = Package(
         //  Binary target
         .binaryTarget(
             name: "HyperKYCBinary",
-            url:  "https://hvsdk.s3.amazonaws.com/ios/release/hyperkyc/1.10.0/HyperKYC.xcframework.zip",
-            checksum: "8f6415c7922eaa7948d90ead68a0f129a37e6beafc819683e2f6d8f29ba6e9e0"
+            url:  "https://hvsdk.s3.amazonaws.com/ios/release/hyperkyc/1.10.1/HyperKYC.xcframework.zip",
+            checksum: "3284bc1fce3da96f5c16f881e1a66d042c41e10fa98f038bce2bc97ab8af9a0c"
         ),
     
         .target(
